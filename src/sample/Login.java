@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class Login {
 	@Test
 	public void fb() throws InterruptedException {
-		
+		System.out.println("Checking for Changes");
 		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\FITA\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Takhsela\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
