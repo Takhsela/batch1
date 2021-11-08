@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
+//using test annotation 
 public class Using_testng {
 	
 public String baseURL ="http://newtours.demoaut.com/";
